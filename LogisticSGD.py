@@ -7,6 +7,7 @@ from csv import reader
 from math import sqrt
 import matplotlib.pyplot as plt
 
+#for commit to git
 
 data = pd.read_csv("pima-indians-diabetes.csv")
 learning_rate = 0
