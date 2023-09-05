@@ -80,7 +80,7 @@ def logistic_SGD(train, test, alpha, iterations):
     return(predictions)
 
 
-
+print("Logistic Regression Coeffs:")
 print(coefficients_sgd(train_norm, 0.00001, 10000))
 
 
